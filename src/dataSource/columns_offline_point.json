@@ -1,0 +1,9 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"agvId","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }},
+  {"title":"x","dataIndex":"x","key":"x","scopedSlots": { "customRender": "x" }},
+  {"title":"y","dataIndex":"y","key":"y","scopedSlots": { "customRender": "y" }},
+  {"title":"状态","dataIndex":"status","key":"status","scopedSlots": { "customRender": "status" }},
+  {"title":"离线时间","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"离线耗时(秒)","dataIndex":"offlineTime","key":"offlineTime"}
+]

@@ -1,0 +1,6 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"电量","dataIndex":"power","key":"power","scopedSlots": { "customRender": "power" }},
+  {"title":"x轴坐标","dataIndex":"currentX","key":"currentX"},
+  {"title":"y轴坐标","dataIndex":"currentY","key":"currentY"}
+]

@@ -1,0 +1,9 @@
+[
+  {"title":"车辆ID","dataIndex":"agvId","key":"agvId"},
+  {"title":"车辆动作","dataIndex":"agvAction","key":"agvAction","scopedSlots": { "customRender": "agvAction" }},
+  {"title":"组别","dataIndex":"group","key":"group"},
+  {"title":"对接步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"对接机台","dataIndex":"stationName","key":"stationName"},
+  {"title":"上道工序机台","dataIndex":"lastStationName","key":"lastStationName"},
+  {"title":"完成时间","dataIndex":"finishTime","key":"finishTime","scopedSlots": { "customRender": "finishTime" }}
+]

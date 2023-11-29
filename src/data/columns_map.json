@@ -1,0 +1,7 @@
+[
+  {"title":"data.i18nKey124","dataIndex":"runAgvs","key":"runAgvs"},
+  {"title":"data.i18nKey125","dataIndex":"waitAgvs","key":"waitAgvs"},
+  {"title":"data.i18nKey126","dataIndex":"passPoint","key":"passPoint"},
+  {"title":"data.i18nKey117","dataIndex":"type","key":"type"},
+  {"title":"data.i18nKey118","dataIndex":"commonAction","key":"commonAction","scopedSlots": { "customRender": "commonAction" }}
+]

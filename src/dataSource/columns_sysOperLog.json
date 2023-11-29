@@ -1,0 +1,11 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"变更类型","dataIndex":"handerType","key":"handerType"},
+  {"title":"改动相关数据id","dataIndex":"fieldId","key":"fieldId"},
+  {"title":"变更模块对象","dataIndex":"title","key":"title"},
+  {"title":"变更字段","dataIndex":"fieldName","key":"fieldName"},
+  {"title":"变更前内容","dataIndex":"firldContent","key":"firldContent"},
+  {"title":"更新后的内容","dataIndex":"newFieldContent","key":"newFieldContent"},
+  {"title":"操作时间","dataIndex":"operTime","key":"operTime"},
+  {"title":"操作用户","dataIndex":"operName","key":"operName"}
+]

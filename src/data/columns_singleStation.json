@@ -1,0 +1,11 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.i18nKey168","dataIndex":"workday","key":"workday","scopedSlots": { "customRender": "workday" }},
+  {"title":"data.i18nKey169","dataIndex":"workShift","key":"workShift"},
+  {"title":"data.i18nKey170","dataIndex":"stationName","key":"stationName","scopedSlots": { "customRender": "stationName" }},
+  {"title":"data.i18nKey171","dataIndex":"stationAction","key":"stationAction"},
+  {"title":"data.i18nKey172","dataIndex":"times","key":"times"},
+  {"title":"data.i18nKey173","dataIndex":"amount","key":"amount"},
+  {"title":"data.i18nKey174","dataIndex":"chips","key":"chips"},
+  {"title":"data.i18nKey175","dataIndex":"countTime","key":"countTime","scopedSlots": { "customRender": "countTime" }}
+]

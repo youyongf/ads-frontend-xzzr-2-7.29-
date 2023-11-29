@@ -1,0 +1,7 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"缓存层id","dataIndex":"bufferLayerId","key":"bufferLayerId"},
+  {"title":"名称","dataIndex":"name","key":"name"},
+  {"title":"寄存器地址","dataIndex":"address","key":"address"},
+  {"title":"序号","dataIndex":"item","key":"item"}
+]

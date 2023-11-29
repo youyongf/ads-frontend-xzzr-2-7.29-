@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/*通用样式*/
+.float-right-top {
+  top: 0px;
+  right: 0%;
+  position: absolute;
+}
+
+.query-form > div, input {
+  width: 120px;
+  margin: 5px 10px !important;
+}
+
+/**---------AGV样式嵌入图标----------- **/
+g.igv {
+  z-index: 9999;
+}
+
+g.igv image {
+  size: 25rem;
+}
+
+g.igv text {
+  fill: black;
+}
+
+g.igv text:nth-child(2) {
+  fill: white;
+}
+
+g.igv-offline image {
+  href: 'icon/agv_gray.svg';
+}
+
+g.igv-ready image {
+  href: '~@/public/icon/agv_blue.svg';
+}
+
+g.igv-ready text {
+  fill: white;
+}
+
+g.igv-running image {
+  href: 'icon/agv_green.svg';
+}
+
+g.igv-working image {
+  href: 'icon/agv_lightblue.svg';
+}
+
+g.igv-working text {
+  fill: white;
+}
+
+g.igv-charge image {
+  href: 'icon/agv_charge.svg';
+}
+
+g.igv-error image {
+  href: 'icon/agv_deepred.svg';
+}
+
+g.igv-error text {
+  fill: white;
+}
+
+g.igv-warning image {
+  href: '/icon/agv_yellow.svg';
+}

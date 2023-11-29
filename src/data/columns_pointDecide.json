@@ -1,0 +1,10 @@
+[
+  {"title":"data.i18nKey139","dataIndex":"pointId","key":"pointId"},
+  {"title":"data.i18nKey140","dataIndex":"stopPoint","key":"stopPoint"},
+  {"title":"data.i18nKey141","dataIndex":"agvUpperLimit","key":"agvUpperLimit"},
+  {"title":"data.i18nKey142","dataIndex":"agvLowerLimit","key":"agvLowerLimit"},
+  {"title":"data.i18nKey143","dataIndex":"buffers","key":"buffers"},
+  {"title":"data.i18nKey144","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"data.i18nKey107","dataIndex":"area","key":"area"},
+  {"title":"data.i18nKey145","dataIndex":"stopPointLimit","key":"stopPointLimit"}
+]

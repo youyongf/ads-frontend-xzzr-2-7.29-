@@ -1,0 +1,9 @@
+[
+  {"title":"id","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"ip","dataIndex":"ip","key":"ip"},
+  {"title":"端口号","dataIndex":"port","key":"port"},
+  {"title":"所属循环","dataIndex":"region","key":"region"},
+  {"title":"出料花篮阈值","dataIndex":"maxBasket","key":"maxBasket"},
+  {"title":"备注","dataIndex":"remark","key":"remark"},
+  {"title":"车辆类型","dataIndex":"type","key":"type"}
+]

@@ -1,0 +1,6 @@
+[
+  {"title":"id","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"名称","dataIndex":"name","key":"name"},
+  {"title":"步骤","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"序号","dataIndex":"item","key":"item"}
+]

@@ -1,0 +1,10 @@
+[
+  {"title":"工序","dataIndex":"process","key":"process","scopedSlots": { "customRender": "process" }},
+  {"title":"车辆数","dataIndex":"agv_qty","key":"agv_qty"},
+  {"title":"缓存在制","dataIndex":"cache_amount","key":"cache_amount"},
+  {"title":"机台传输在制","dataIndex":"agv_transfer_amount","key":"agv_transfer_amount"},
+  {"title":"行驶状态在制","dataIndex":"agv_steer_amount","key":"agv_steer_amount"},
+  {"title":"待命点在制","dataIndex":"agv_park_amount","key":"agv_park_amount"},
+  {"title":"空车数","dataIndex":"empty_qty","key":"empty_qty"},
+  {"title":"总片数","dataIndex":"total_amount","key":"total_amount"}
+]

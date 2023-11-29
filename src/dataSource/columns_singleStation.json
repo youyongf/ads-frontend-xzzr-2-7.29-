@@ -1,0 +1,11 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"工作日","dataIndex":"workday","key":"workday","scopedSlots": { "customRender": "workday" }},
+  {"title":"轮班","dataIndex":"workShift","key":"workShift"},
+  {"title":"机台","dataIndex":"stationName","key":"stationName","scopedSlots": { "customRender": "stationName" }},
+  {"title":"机台动作","dataIndex":"stationAction","key":"stationAction"},
+  {"title":"接料次数","dataIndex":"times","key":"times"},
+  {"title":"花篮总数","dataIndex":"amount","key":"amount"},
+  {"title":"硅片数量","dataIndex":"chips","key":"chips"},
+  {"title":"统计时间","dataIndex":"countTime","key":"countTime"}
+]

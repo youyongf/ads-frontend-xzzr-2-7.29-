@@ -1,0 +1,30 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id"
+  },
+  {
+    "title": "data.i18nKey110",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "data.i18nKey219",
+    "dataIndex": "targetOutputA",
+    "key": "targetOutputA",
+    "scopedSlots": { "customRender": "targetOutputA" }
+  },
+  {
+    "title": "data.i18nKey220",
+    "dataIndex": "targetOutputB",
+    "key": "targetOutputB",
+    "scopedSlots": { "customRender": "targetOutputB" }
+  },
+  {
+    "title": "data.i18nKey123",
+    "dataIndex": "operation",
+    "key": "operation",
+    "scopedSlots": { "customRender": "operation" }
+  }
+]

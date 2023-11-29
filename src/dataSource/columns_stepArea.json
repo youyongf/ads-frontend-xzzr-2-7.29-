@@ -1,0 +1,10 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"名称","dataIndex":"name","key":"name"},
+  {"title":"区域","dataIndex":"areaNo","key":"areaNo"},
+  {"title":"步骤ID","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"决策点","dataIndex":"decidePoint","key":"decidePoint"},
+  {"title":"在制(车辆)数上限","dataIndex":"agvUpperLimit","key":"agvUpperLimit"},
+  {"title":"在制(车辆)数下限","dataIndex":"areaLowerLimit","key":"areaLowerLimit"},
+  {"title":"toStationConditionForParks","dataIndex":"toStationConditionForParks","key":"toStationConditionForParks"}
+]

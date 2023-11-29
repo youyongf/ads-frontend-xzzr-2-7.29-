@@ -1,0 +1,9 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"名称","dataIndex":"name","key":"name"},
+  {"title":"正在通行车辆","dataIndex":"runAgvs","key":"runAgvs"},
+  {"title":"等待车辆","dataIndex":"waitAgvs","key":"waitAgvs"},
+  {"title":"通行队列","dataIndex":"passPoint","key":"passPoint"},
+  {"title":"类型","dataIndex":"type","key":"type"},
+  {"title":"操作","dataIndex":"commonAction","key":"commonAction","scopedSlots": { "customRender": "commonAction" }}
+]

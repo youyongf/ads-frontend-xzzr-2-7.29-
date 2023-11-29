@@ -1,0 +1,6 @@
+[
+  {"title":"ts","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"ip","dataIndex":"ip","key":"ip"},
+  {"title":"端口","dataIndex":"port","key":"port"},
+  {"title":"数据","dataIndex":"data","key":"data"}
+]

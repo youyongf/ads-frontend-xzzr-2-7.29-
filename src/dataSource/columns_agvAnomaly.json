@@ -1,0 +1,9 @@
+[
+  {"title":"车号","dataIndex":"agvId","key":"agvId"},
+  {"title":"当前点位","dataIndex":"pointId","key":"pointId"},
+  {"title":"机台名称","dataIndex":"stationName","key":"stationName"},
+  {"title":"路线id","dataIndex":"routeId","key":"routeId"},
+  {"title":"步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"异常信息","dataIndex":"message","key":"message"},
+  {"title":"时间","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }}
+]

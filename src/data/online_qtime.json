@@ -1,0 +1,6 @@
+[
+  {"title":"id","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"data.i18nKey110","dataIndex":"name","key":"name"},
+  {"title":"data.i18nKey49","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"data.i18nKey112","dataIndex":"item","key":"item"}
+]

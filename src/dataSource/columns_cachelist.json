@@ -1,0 +1,29 @@
+[
+  {"title":"机台ID","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"机台标识","dataIndex":"name","key":"name"},
+  {"title":"工序","dataIndex":"process","key":"process","scopedSlots": { "customRender": "process" }},
+  {"title":"当前步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"下一步骤","dataIndex":"nextStep","key":"nextStep","scopedSlots": { "customRender": "nextStep" }},
+  {"title":"下一步骤机台[优先]","dataIndex":"nextStations","key":"nextStations"},
+  {"title":"下一决策点","dataIndex":"nextDecidePoint","key":"nextDecidePoint"},
+  {"title":"优先的下料缓存机","dataIndex":"nextCacheStations","key":"nextCacheStations"},
+  {"title":"邻近停车位","dataIndex":"parks","key":"parks"},
+  {"title":"线别","dataIndex":"line","key":"line"},
+  {"title":"组别","dataIndex":"group","key":"group"},
+  {"title":"备选分组","dataIndex":"alternateGroup","key":"alternateGroup"},
+  {"title":"IP","dataIndex":"ip","key":"ip"},
+  {"title":"机台端口","dataIndex":"port","key":"port"},
+  {"title":"调度端口","dataIndex":"adsPort","key":"adsPort"},
+  {"title":"反馈数据包解析标识","dataIndex":"parser","key":"parser"},
+  {"title":"UDP包头","dataIndex":"udpHead","key":"udpHead"},
+  {"title":"退出点","dataIndex":"exitPoint","key":"exitPoint"},
+  {"title":"对接点","dataIndex":"doPoint","key":"doPoint"},
+
+  {"title":"缓存机仓位数","dataIndex":"capacity","key":"capacity"},
+  {"title":"同步锁定点位","dataIndex":"relPids","key":"relPids"},
+  {"title":"是否需要心跳包","dataIndex":"heartbeat","key":"heartbeat"},
+  {"title":"机台料口阀值","dataIndex":"limits","key":"limits"},
+  {"title":"区域","dataIndex":"area","key":"area"},
+  {"title":"是否启用","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }}
+
+]

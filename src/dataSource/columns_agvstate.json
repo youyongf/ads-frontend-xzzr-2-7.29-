@@ -1,0 +1,14 @@
+[
+  {"title":"agv","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"起始地","dataIndex":"from","key":"from"},
+  {"title":"进出料状态","dataIndex":"hcAction","key":"hcAction","scopedSlots": { "customRender": "hcAction" }},
+  {"title":"层数","dataIndex":"hcLayer","key":"hcLayer","scopedSlots": { "customRender": "hcLayer" }},
+  {"title":"目的地","dataIndex":"to","key":"to"},
+  {"title":"执行路线组","dataIndex":"routes","key":"routes"},
+  {"title":"组别","dataIndex":"group","key":"group","scopedSlots": { "customRender": "group" }},
+  {"title":"上次所在机台","dataIndex":"lastStation","key":"lastStation","scopedSlots": { "customRender": "lastStation" }},
+  {"title":"下一步骤","dataIndex":"nextStep","key":"nextStep","scopedSlots": { "customRender": "nextStep" }},
+  {"title":"目标点位","dataIndex":"targetPoint","key":"targetPoint","scopedSlots": { "customRender": "targetPoint" }},
+  {"title":"当前对接标记","dataIndex":"transFlag","key":"transFlag","scopedSlots": { "customRender": "transFlag" }},
+  {"title":"运行时消息","dataIndex":"message","key":"message"}
+]

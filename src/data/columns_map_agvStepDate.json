@@ -1,0 +1,5 @@
+[
+  {"title":"data.i18nKey127","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"data.i18nKey128","dataIndex":"agvQuantity","key":"agvQuantity"},
+  {"title":"data.i18nKey129","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }}
+]

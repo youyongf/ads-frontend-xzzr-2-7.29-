@@ -1,0 +1,7 @@
+[
+  {"title":"data.i18nKey46","dataIndex":"pointId","key":"pointId"},
+  {"title":"data.i18nKey47","dataIndex":"stationName","key":"stationName"},
+  {"title":"data.i18nKey48","dataIndex":"routeId","key":"routeId"},
+  {"title":"data.i18nKey49","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.i18nKey50","dataIndex":"message","key":"message"}
+]

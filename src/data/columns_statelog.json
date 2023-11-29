@@ -1,0 +1,9 @@
+[
+  {"title":"data.i18nKey176","dataIndex":"agvId","key":"agvId"},
+  {"title":"data.i18nKey120","dataIndex":"stateTitle","key":"stateTitle"},
+  {"title":"data.i18nKey177","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"data.i18nKey178","dataIndex":"duration","key":"duration"},
+  {"title":"data.i18nKey49","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.i18nKey179","dataIndex":"stationIp","key":"stationIp"},
+  {"title":"data.i18nKey180","dataIndex":"pointId","key":"pointId"}
+]

@@ -1,0 +1,21 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"机台对接点","dataIndex":"cacheId","key":"cacheId","scopedSlots": { "customRender": "cacheId" }},
+  {"title":"层名称","dataIndex":"name","key":"name"},
+  {"title":"层序号","dataIndex":"layer","key":"layer"},
+  {"title":"系统状态位","dataIndex":"controlState","key":"controlState"},
+  {"title":"进料状态位","dataIndex":"inState","key":"inState"},
+  {"title":"出料状态位","dataIndex":"outState","key":"outState"},
+  {"title":"花篮数","dataIndex":"basketNum","key":"basketNum"},
+  {"title":"组别","dataIndex":"group","key":"group"},
+  {"title":"下一步骤","dataIndex":"nextStep","key":"nextStep","scopedSlots": { "customRender": "nextStep" }},
+  {"title":"待命点","dataIndex":"parks","key":"parks"},
+  {"title":"超时指令位","dataIndex":"timeOutByte","key":"timeOutByte"},
+  {"title":"花篮(硅片)尺寸","dataIndex":"basketSize","key":"basketSize"},
+  {"title":"物料类型","dataIndex":"materialType","key":"materialType","scopedSlots": { "customRender": "materialType" }},
+  {"title":"下一个可选机台","dataIndex":"nextStations","key":"nextStations"},
+  {"title":"进料指令位","dataIndex":"inSend","key":"inSend"},
+  {"title":"出料指令位","dataIndex":"outSend","key":"outSend"},
+  {"title":"可存放最大花篮数","dataIndex":"maxBasket","key":"maxBasket"},
+  {"title":"缓存传输对车位置","dataIndex":"transferLayer","key":"transferLayer","scopedSlots": { "customRender": "transferLayer" }}
+]

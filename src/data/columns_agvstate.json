@@ -1,0 +1,15 @@
+[
+  {"title":"agv","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"data.i18nKey60","dataIndex":"from","key":"from"},
+  {"title":"data.i18nKey61","dataIndex":"hcAction","key":"hcAction","scopedSlots": { "customRender": "hcAction" }},
+  {"title":"data.i18nKey62","dataIndex":"hcLayer","key":"hcLayer","scopedSlots": { "customRender": "hcLayer" }},
+  {"title":"data.i18nKey63","dataIndex":"to","key":"to"},
+  {"title":"data.batteryState","dataIndex":"batteryState","key":"batteryState","scopedSlots": { "customRender": "batteryState" }},
+  {"title":"data.i18nKey64","dataIndex":"routes","key":"routes"},
+  {"title":"data.i18nKey65","dataIndex":"group","key":"group","scopedSlots": { "customRender": "group" }},
+  {"title":"data.i18nKey66","dataIndex":"lastStation","key":"lastStation","scopedSlots": { "customRender": "lastStation" }},
+  {"title":"data.i18nKey67","dataIndex":"nextStep","key":"nextStep","scopedSlots": { "customRender": "nextStep" }},
+  {"title":"data.i18nKey68","dataIndex":"targetPoint","key":"targetPoint","scopedSlots": { "customRender": "targetPoint" }},
+  {"title":"data.i18nKey69","dataIndex":"transFlag","key":"transFlag","scopedSlots": { "customRender": "transFlag" }},
+  {"title":"data.i18nKey70","dataIndex":"message","key":"message"}
+]

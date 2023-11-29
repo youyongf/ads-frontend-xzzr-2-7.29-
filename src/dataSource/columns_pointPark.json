@@ -1,0 +1,8 @@
+[
+  {"title":"点位ID","dataIndex":"pointId","key":"pointId"},
+  {"title":"缓存(buffers)","dataIndex":"buffers","key":"buffers"},
+  {"title":"空车可去机台","dataIndex":"nextOutBasketStation","key":"nextOutBasketStation"},
+  {"title":"开关状态","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"待命点类型","dataIndex":"special","key":"special","scopedSlots": { "customRender": "special" }},
+  {"title":"区域","dataIndex":"area","key":"area"}
+]

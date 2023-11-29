@@ -1,0 +1,10 @@
+[
+  {"title":"序号","dataIndex":"item","key":"item"},
+  {"title":"工序","dataIndex":"process","key":"process"},
+  {"title":"30分钟以内","dataIndex":"c30_within","key":"c30_within"},
+  {"title":"30-60分钟","dataIndex":"c60_within","key":"c60_within"},
+  {"title":"60-90分钟","dataIndex":"c90_within","key":"c90_within"},
+  {"title":"90-120分钟","dataIndex":"c120_within","key":"c120_within"},
+  {"title":"120分钟以上","dataIndex":"c120_outside","key":"c120_outside"},
+  {"title":"合计","dataIndex":"total","key":"total"}
+]

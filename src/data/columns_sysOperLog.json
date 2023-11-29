@@ -1,0 +1,11 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.i18nKey221","dataIndex":"handerType","key":"handerType"},
+  {"title":"data.i18nKey222","dataIndex":"fieldId","key":"fieldId"},
+  {"title":"data.i18nKey223","dataIndex":"title","key":"title"},
+  {"title":"data.i18nKey224","dataIndex":"fieldName","key":"fieldName"},
+  {"title":"data.i18nKey225","dataIndex":"firldContent","key":"firldContent","scopedSlots": { "customRender": "firldContent" }},
+  {"title":"data.i18nKey226","dataIndex":"newFieldContent","key":"newFieldContent","scopedSlots": { "customRender": "newFieldContent" }},
+  {"title":"data.i18nKey227","dataIndex":"operTime","key":"operTime"},
+  {"title":"data.i18nKey228","dataIndex":"operName","key":"operName"}
+]

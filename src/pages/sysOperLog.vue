@@ -1,0 +1,183 @@
+<template>
+    <div>
+        <a-row>
+            <a-table :row-class-name="(record, index) => (index % 2 === 1 ? 'table-striped' : null)"
+                :pagination="pagination" :dataSource="data" :columns="columns" rowKey="id" size="small"
+                :scroll="{ x: true }">
+                <div :title="text" class="nfc" slot="newFieldContent" slot-scope="text" :data-id="text" >{{text}}</div>
+                <div :title="text" class="nfc" slot="firldContent" slot-scope="text" :data-id="text" >{{text}}</div>
+                <!-- <span slot="commonAction" slot-scope="text, record,index">
+                    <a>
+                        <a-icon type="edit" @click="() => recordEdit(index, record)"></a-icon>
+                    </a>
+                </span> -->
+            </a-table>
+            <!-- <a-modal title="{{$tcache('common.modify')}}" :visible="visible" :dialog-style="{ top: '20px' }" :width="800" okText="{{$tcache('save')}}"
+                cancelText="{{$tcache('common.cancel')}}" @ok="handleOk" @cancel="handleCancel">
+                <public_detail :data="record" :remark="columns" :disabledStrArr="disabledStrArr" :showArr="showArr" />
+            </a-modal> -->
+            <div style="margin-top:10px" class="flex">
+                <div class="flex fontSty">{{$tcache('common.rowsPerPage')}}:
+                    <a-input class="fontSty" type="number" v-model.number="pagination.pageSize" :placeholder="$tcache('common.rowsPerPage')" />
+                </div>
+                <a-pagination :page-size="pagination.pageSize" v-model="pagination.current" show-quick-jumper
+                    :total="total" @change="ChangePage" />
+            </div>
+        </a-row>
+    </div>
+</template>
+  
+<script>
+// import public_detail from "../pages/admin/public_detail";
+const tableData = require('../data/columns_sysOperLog.json');
+export default {
+    name: "config",
+    components: {
+        // public_detail,
+    },
+    data() {
+        return {
+            total: 0,//查询得到数据的条数
+            pagination: {
+                pageSize: Number(localStorage.getItem('pageSize')) ? Number(localStorage.getItem('pageSize')) : Number(this.$store.state.defaultPageSize),//每页中显示10条数据
+                current: 1,
+            },
+            data: [],//查询结果
+            alldata: [],         
+            isAdmin: this.$store.state.isAdmin,//判断是否为管理员
+            visible: false,
+            record: {},
+            disabledStrArr:['id','key'],
+            showArr:[],
+            editable:localStorage.getItem('RoleMenu').includes(this.$route.path+'_editable'),//验证当前页面是否可编辑
+            isSave:true,
+            saveId:''
+        }
+    },
+    watch: {
+        pagination: {
+            handler(newVal, oldVal) {
+                console.log('pagination', newVal, oldVal)
+                localStorage.setItem('pageSize', this.pagination.pageSize);
+            },
+            deep: true
+        },
+    },
+    computed: {
+        columns() {
+            return this.$transformI18n(tableData, "title");
+        },
+    },
+    beforeMount() {
+        // if(this.editable||this.isAdmin)this.addRender()
+    },
+    mounted() {
+        this.queryData()
+    },
+    methods: {
+        ChangePage(pageNumber) {
+            this.pagination.current = pageNumber
+        },
+        clearForm() {
+            this.total = 0
+            this.data = this.alldata
+        },
+        queryData() {
+          this.axios.get(`sysOperLog/all`).then(res => {
+              if (res.status == 200 && res.data) {
+                  res.data=res.data.sort((a,b)=>b.id-a.id)
+                  let arr = res.data
+                  arr.forEach(a=>{
+                    a.operTime=new Date(a.operTime).toLocaleString()
+                  })
+                //   arr.sort((a,b)=>a.id-b.id)
+                  this.alldata = arr
+                  if(this.isSave){this.data=arr}else{
+                    const index = this.data.findIndex(item=>item.id==this.saveId)
+                    let obj=this.alldata.filter(item=>item.id==this.saveId)
+                    this.data[index]=Object.assign(this.data[index], obj[0])
+                  }
+                  this.total = Number(this.data.length)
+              }
+          }).catch(err => { this.$message.error(err) })
+        },
+        addRender() {
+            //列中添加类似： "scopedSlots":{ "customRender":"createTime"}
+            let b = this.columns.find(e => e.dataIndex == 'commonAction')
+            if (b == undefined) {//避免重复mounted时重复push(一般在开发模式下发生）
+                let col = { title: '编辑', dataIndex: 'commonAction', key: 'commonAction', fixed: 'right', width: 60, scopedSlots: { customRender: 'commonAction' } }
+                this.columns.push(col)
+            }
+        },
+        handleOk() {
+            let that = this;
+            this.$confirm({
+                title: this.$tcache('common.prompt'),
+                content: this.$tcache('common.pressOkSave'),
+                onOk() {
+                    that.save();
+                    that.visible = false;
+                },
+            });
+        },
+        handleCancel() {
+            this.saveId=this.record.id
+            this.isSave=false
+            this.record={}
+            this.queryData()
+            this.visible = false;
+        },
+        recordEdit(index, record) {
+            console.log(index, record);
+            this.record = record;
+            this.visible = true;
+        },
+        save() {
+            this.axios.post(`config/save`,this.record).then(() => {
+                this.isSave=false
+                this.saveId=this.record.id
+                this.queryData();
+                this.$message.success(this.$tcache('common.saveSuccess'))
+            }).catch(() => { })
+        },
+    }
+}
+</script>
+  
+<style scoped lang="scss">
+@import '~@/assets/scss/style.scss';
+
+::v-deep .ant-table-thead>tr>th,
+::v-deep .ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::v-deep .ant-table-pagination {
+    display: none;
+}
+
+::v-deep .ant-table-thead>tr>th {
+    background-color: $bgcolor !important;
+    color: $color;
+    white-space: nowrap;
+    // font-weight: bold;
+}
+
+::v-deep .table-striped {
+    background-color: #f0f0f0;
+}
+::v-deep .ant-table-tbody > tr > td{
+    white-space: nowrap;
+}
+.nfc{
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+</style>

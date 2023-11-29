@@ -1,0 +1,14 @@
+[
+  {"title":"点位ID","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"x坐标(mm)","dataIndex":"x","key":"x"},
+  {"title":"y坐标(mm)","dataIndex":"y","key":"y"},
+  {"title":"类型","dataIndex":"type","key":"type","scopedSlots": { "customRender": "type" }},
+  {"title":"去缓存点小车限制","dataIndex":"agvsLimit","key":"agvsLimit"},
+  {"title":"对应点","dataIndex":"pairId","key":"pairId"},
+  {"title":"区域编号","dataIndex":"area","key":"area"},
+  {"title":"调度步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"注释","dataIndex":"remark","key":"remark"},
+  {"title":"插入或更新时间","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"限定点位可去机台","dataIndex":"cacheStations","key":"cacheStations"},
+  {"title":"标签","dataIndex":"tag","key":"tag"}
+]

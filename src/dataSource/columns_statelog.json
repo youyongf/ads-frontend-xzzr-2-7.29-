@@ -1,0 +1,9 @@
+[
+  {"title":"车辆ID","dataIndex":"agvId","key":"agvId"},
+  {"title":"状态","dataIndex":"stateTitle","key":"stateTitle"},
+  {"title":"变换时间","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"持续时间","dataIndex":"duration","key":"duration"},
+  {"title":"步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"机台IP","dataIndex":"stationIp","key":"stationIp"},
+  {"title":"所在点位","dataIndex":"pointId","key":"pointId"}
+]

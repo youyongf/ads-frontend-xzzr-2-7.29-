@@ -1,0 +1,8 @@
+[
+  {"title":"data.i18nKey139","dataIndex":"pointId","key":"pointId"},
+  {"title":"data.i18nKey143","dataIndex":"buffers","key":"buffers"},
+  {"title":"data.i18nKey154","dataIndex":"nextOutBasketStation","key":"nextOutBasketStation"},
+  {"title":"data.i18nKey144","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"data.i18nKey155","dataIndex":"special","key":"special","scopedSlots": { "customRender": "special" }},
+  {"title":"data.i18nKey107","dataIndex":"area","key":"area"}
+]

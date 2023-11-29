@@ -1,0 +1,9 @@
+[
+  {"title":"data.i18nKey176","dataIndex":"agvId","key":"agvId"},
+  {"title":"data.i18nKey231","dataIndex":"agvAction","key":"agvAction","scopedSlots": { "customRender": "agvAction" }},
+  {"title":"data.i18nKey65","dataIndex":"group","key":"group","scopedSlots": { "customRender": "group" }},
+  {"title":"data.i18nKey232","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.i18nKey233","dataIndex":"stationName","key":"stationName"},
+  {"title":"data.i18nKey234","dataIndex":"lastStationName","key":"lastStationName"},
+  {"title":"data.i18nKey235","dataIndex":"finishTime","key":"finishTime","scopedSlots": { "customRender": "finishTime" }}
+]

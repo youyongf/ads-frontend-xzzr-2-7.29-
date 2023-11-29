@@ -1,0 +1,10 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.nextStations1","dataIndex":"nextStations1","key":"nextStations1"},
+  {"title":"data.nextStations2","dataIndex":"nextStations2","key":"nextStations2"},
+  {"title":"data.i18nKey94","dataIndex":"parks","key":"parks"},
+  {"title":"data.nextCacheStations","dataIndex":"nextCacheStations","key":"nextCacheStations"},
+  {"title":"data.limits","dataIndex":"limits","key":"limits"},
+  {"title":"data.area","dataIndex":"area","key":"area"},
+  {"title":"data.chargerLimits","dataIndex":"chargerLimits","key":"chargerLimits"}
+]

@@ -1,0 +1,10 @@
+[
+  {"title":"点位ID","dataIndex":"pointId","key":"pointId"},
+  {"title":"暂停点","dataIndex":"stopPoint","key":"stopPoint"},
+  {"title":"车辆数上限","dataIndex":"agvUpperLimit","key":"agvUpperLimit"},
+  {"title":"车辆数下限","dataIndex":"agvLowerLimit","key":"agvLowerLimit"},
+  {"title":"缓存(buffers)","dataIndex":"buffers","key":"buffers"},
+  {"title":"开关状态","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"区域","dataIndex":"area","key":"area"},
+  {"title":"去往暂停点的阈值","dataIndex":"stopPointLimit","key":"stopPointLimit"}
+]

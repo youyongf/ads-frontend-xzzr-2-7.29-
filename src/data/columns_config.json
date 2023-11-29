@@ -1,0 +1,7 @@
+[
+  {"title":"id","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"data.i18nKey113","dataIndex":"key","key":"key"},
+  {"title":"data.i18nKey114","dataIndex":"value","key":"value"},
+  {"title":"data.i18nKey115","dataIndex":"remark","key":"remark"},
+  {"title":"data.i18nKey116","dataIndex":"tag","key":"tag"}
+]

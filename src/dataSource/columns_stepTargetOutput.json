@@ -1,0 +1,30 @@
+[
+  {
+    "title": "ID",
+    "dataIndex": "id",
+    "key": "id"
+  },
+  {
+    "title": "名称",
+    "dataIndex": "name",
+    "key": "name"
+  },
+  {
+    "title": "白班产量目标",
+    "dataIndex": "targetOutputA",
+    "key": "targetOutputA",
+    "scopedSlots": { "customRender": "targetOutputA" }
+  },
+  {
+    "title": "夜班产量目标",
+    "dataIndex": "targetOutputB",
+    "key": "targetOutputB",
+    "scopedSlots": { "customRender": "targetOutputB" }
+  },
+  {
+    "title": "编辑",
+    "dataIndex": "operation",
+    "key": "operation",
+    "scopedSlots": { "customRender": "operation" }
+  }
+]

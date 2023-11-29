@@ -1,0 +1,8 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.i18nKey45","dataIndex":"agvid","key":"agvid"},
+  {"title":"data.modifierTarget","dataIndex":"modifierTarget","key":"modifierTarget"},
+  {"title":"data.modifiedTarget","dataIndex":"modifiedTarget","key":"modifiedTarget"},
+  {"title":"data.AgvChangeStep","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.AgvChangeTs","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }}
+]

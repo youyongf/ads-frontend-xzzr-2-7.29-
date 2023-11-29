@@ -1,0 +1,14 @@
+[ 
+  {"title":"机台名称","dataIndex":"name","key":"name"},
+  {"title":"agv","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }},
+  {"title":"对接点","dataIndex":"doPoint","key":"doPoint"},
+  {"title":"是否启用","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"机台阀值","dataIndex":"limits","key":"limits"},
+  {"title":"机台上料状态","dataIndex":"inState","key":"inState","scopedSlots": { "customRender": "inState" }},
+  {"title":"机台下料状态","dataIndex":"outState","key":"outState","scopedSlots": { "customRender": "outState" }},
+  {"title":"进料数","dataIndex":"inNum","key":"inNum"},
+  {"title":"出料数","dataIndex":"outNum","key":"outNum"},
+  {"title":"组别","dataIndex":"group","key":"group"},
+  {"title":"区域","dataIndex":"area","key":"area"},
+  {"title":"ip","dataIndex":"ip","key":"ip"}
+]

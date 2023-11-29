@@ -1,0 +1,5 @@
+[
+  {"title":"工序名称","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"数量","dataIndex":"agvQuantity","key":"agvQuantity"},
+  {"title":"agv车辆编号","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }}
+]

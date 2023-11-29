@@ -1,0 +1,10 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.i18nKey110","dataIndex":"name","key":"name"},
+  {"title":"data.i18nKey107","dataIndex":"areaNo","key":"areaNo"},
+  {"title":"data.i18nKey192","dataIndex":"stepId","key":"stepId","scopedSlots": { "customRender": "stepId" }},
+  {"title":"data.i18nKey193","dataIndex":"decidePoint","key":"decidePoint"},
+  {"title":"data.i18nKey194","dataIndex":"agvUpperLimit","key":"agvUpperLimit"},
+  {"title":"data.i18nKey195","dataIndex":"areaLowerLimit","key":"areaLowerLimit"},
+  {"title":"待命点阈值","dataIndex":"toStationConditionForParks","key":"toStationConditionForParks"}
+]

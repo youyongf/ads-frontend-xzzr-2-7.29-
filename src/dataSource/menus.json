@@ -1,0 +1,58 @@
+[
+  {"key": 1,"title": "设备调试","value":[
+    {"id": 1,"value": "机台对接监控","path":"/monitor_station"},
+    {"id": 2,"value": "AGV信号监控","path":"/monitor_agv"}
+  ]},
+  {"key": 2,"title": "实时监控","value":[
+    {"id": 1,"value": "机台状态查询","path":"/monitor_stationCardList"},
+    {"id": 2,"value": "AGV状态查询","path":"/monitor_agvstate"},
+    {"id": 3,"value": "实时在制","path":"/onLineQtimeBaskVol"},
+    {"id": 4,"value": "实时Qtime","path":"/Qtime"},
+    {"id": 5,"value": "缓存机花篮","path":"/cacheAgvBasketNum"},
+    {"id": 6,"value": "自动门","path":"/door"},
+    {"id": 7,"value": "agv在制时间","path":"/agvQtime"}
+  ]},
+  {"key": 3,"title": "业务查询","value":[
+    {"id": 1,"value": "传输历史","path":"/check_transferlog"},
+    {"id": 2,"value": "AGV状态历史","path":"/check_statelog"},
+    {"id": 4,"value": "Agv异常统计","path":"/check_agvAnomaly"},
+    {"id": 5,"value": "定线在制","path":"/check_groupOnLineQtimeBaskVol"},
+    {"id": 6,"value": "单机台搬运量","path":"/singleStation"}
+  ]},
+  {"key": 4,"title": "统计分析","value":[
+    {"id": 1,"value": "小车搬运率","path":"/check_car"},
+    {"id": 2,"value": "日工序搬运率","path":"/transfer_day"},
+    {"id": 3,"value": "月工序搬运率","path":"/transfer_month"}
+  ]},
+  {"key": 5,"title": "基础数据","value":[
+    {"id": 1,"value": "点位分布图","path":"/admin_pointmap"},
+    {"id": 2,"value": "缓存站分层定线","path":"/admin_cachelayergroup"},
+    {"id": 3,"value": "机台定线分组","path":"/group/admin_stationgroup"},
+    {"id": 4,"value": "对接工位分布图","path":"/admin_stationmap"}
+  ]},
+  {"key": 6,"title": "系统管理","value":[
+    {"id": 1,"value": "步骤","path":"/admin_step"},
+    {"id": 18,"value": "步骤区域","path":"/stepArea"},
+    {"id": 2,"value": "机台","path":"/admin_station"},
+    {"id": 19,"value": "下一可选机台","path":"/nextStations"},
+    {"id": 3,"value": "缓存机","path":"/cache_list"},
+    {"id": 4,"value": "缓存位置","path":"/cachePosition"},
+    {"id": 5,"value": "缓存机分层","path":"/cacheLayer"},
+    {"id": 6,"value": "交管区分布图","path":"/admin_camap"},
+    {"id": 7,"value": "点位","path":"/admin_point"},
+    {"id": 8,"value": "扩展决策点","path":"/pointDecide"},
+    {"id": 9,"value": "扩展待命点","path":"/pointPark"},
+    {"id": 10,"value": "路线","path":"/admin_routeUpload/admin_routeImport/admin_routefiles/admin_routeUpload_new/admin_route"},
+    {"id": 11,"value": "离线点位分布图","path":"/monitor_offlinepointmap"},
+    {"id": 12,"value": "AGV","path":"/admin_agv"},
+    {"id": 13,"value": "交管","path":"/admin_control"},
+    {"id": 14,"value": "在制信息配置","path":"/admin_on_line_qtime"},
+    {"id": 15,"value": "工序产量目标","path":"/admin_stepTargetOutput"},
+    {"id": 16,"value": "配置信息","path":"/admin_config"},
+    {"id": 17,"value": "密码修改","path":"/newPassword"}
+  ]},
+  {"key": 7,"title": "其他","value":[
+    {"id": 1,"value": "调度日志","path":"/systemLog"},
+    {"id": 2,"value": "操作日志","path":"/sysOperLog"}
+  ]}
+]

@@ -1,0 +1,337 @@
+/*blue与bright两种样式文件主要差别在body背景色*/
+body{
+  background: #f1f2fb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffffff, #f1f2fb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffffff, #f1f2fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#map-container{
+  z-index: 0;scroll-behavior: auto;overflow: visible;overflow-scrolling: auto;
+}
+//#map{
+//  width:100%;
+//  height: 100%;
+//  background-color: #5cd9e8;
+//  overflow-scrolling: auto;
+//}
+
+.hidden{
+  display: none;
+}
+#tooltip {
+  padding: 5px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 15%);
+  box-shadow: 0 0 8px rgba(0,0,0,.15);
+  transform-origin: 50% 90.6667px;
+}
+#tooltip .popover-title{
+  min-width: 177px;
+  min-height: 32px;
+  margin: 0;
+  padding: 5px 16px 4px;
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  border-bottom: 1px solid #e8e8e8;
+}
+#tooltip .popover-content{
+  padding: 12px 16px;
+  color: rgba(0,0,0,.65);
+}
+#tooltip .popover-content span{
+  margin: 3px 5px;
+}
+
+.top_right{
+  display: block;
+  position: fixed;
+  --width: 500px;
+  height: 48px;
+  top:10px;
+  right: 10px;
+  text-align: right;
+  color:black;
+  opacity: 0.8;
+}
+.map-anchor{
+  color: #5cd9e8;
+}
+.map-anchor:hover{
+  color: #1a5cd7;
+}
+
+/**  agv style **/
+.agv{
+  z-index: 9999;
+}
+g{
+  opacity: 0.8;
+  rect.agv {
+    fill: gray;
+    stroke-width: 1px;
+    stroke: white;
+    width:22px;height:22px;
+    rx:4;ry:4;
+    opacity: .6;
+  }
+  text.agv-text{
+    stroke: black;
+    font-size: 1em;
+  }
+  text.agv-title{
+    stroke: gray;
+    fill: lightyellow;
+    stroke-opacity: 0.1;
+  }
+  &:hover {
+    opacity: 1;
+    rect {
+      fill: white;
+    }
+    text.agv-text {
+      fill: white;
+      stroke: lime;
+      font-size: 1.2em;
+    }
+    text.agv-title {
+      stroke: white;
+    }
+  }
+}
+.agv-offline {
+  rect {
+    fill: black;
+  }
+  text.agv-text{
+    stroke: gray;
+  }
+  text.agv-title{
+    stroke: darkgray;
+    stroke-opacity: 0.1;
+  }
+}
+/*待命*/
+.agv-ready {
+  rect {
+    fill: cyan;
+  }
+  .agv-text{
+    stroke: darkblue;
+  }
+  .agv-title{
+    stroke: cyan;
+    stroke-opacity: 0.1;
+  }
+}
+/*工作中：正常*/
+.agv-working{
+  rect{
+    fill:lightgreen;
+  }
+  .agv-text{
+    stroke: white;
+  }
+  .agv-title{
+    stroke:lightgreen;
+    stroke-opacity: 0.1;
+  }
+}
+.agv-running{
+  rect{
+    fill: greenyellow;
+  }
+  .agv-text{
+    stroke: white;
+  }
+  .agv-title{
+    stroke:black;
+  }
+}
+.agv-recharge{
+  rect{
+    fill: lightcyan;
+  }
+  text{
+    &.agv-text{
+      stroke:darkblue;
+    }
+    &.agv-title{
+      stroke: lightblue;
+      stroke-opacity: 0.1;
+    }
+  }
+}
+
+.agv-warning{
+  rect{
+    fill: orange;
+  }
+  text{
+    &.agv-text{
+      stroke: darkblue;
+    }
+    &.agv-title{
+      stroke: orange;
+      stroke-opacity: 0.1;
+    }
+  }
+}
+.agv-error{
+  rect{
+    fill: red;
+    stroke: white;
+  }
+  text{
+    &.agv-text{
+      stroke: lightyellow;
+    }
+    &.agv-title{
+      stroke: red;
+      stroke-opacity: 0.1;
+    }
+  }
+}
+
+/*机台样式*/
+g.station{
+  rect{
+      fill: rgb(118, 193, 218);
+      stroke-width: 1px;
+      stroke: white;
+      opacity: .7;
+  }
+  rect:hover{
+    fill: skyblue;
+  }
+  rect.checked {
+    fill: lightskyblue;
+    stroke: #0037ff;
+    stroke-width: 3px;
+  }
+  text:hover{
+    color: lightslategray;
+    font-weight: bold;
+  }
+}
+
+polyline{
+  --stroke: lightgray;
+  --stroke-width: 1px;
+  fill: transparent;
+  &:hover{
+    stroke: aqua;
+    stroke-width: 3px;
+  }
+  &.start{
+    stroke: blue;
+    stroke-width: 3px;
+  }
+  &.pass{
+    stroke: green;
+    stroke-width: 3px;
+  }
+  &.end{
+    stroke: red;
+    stroke-width: 3px;
+  }
+}
+/*点样式*/
+circle{
+  &.dot{
+    fill: #33c104;
+    stroke: #e10000;
+    stroke-width: 0px;
+  }
+  &.dot:hover{
+    fill: white;
+    stroke: aqua;
+    stroke-width: 3px;
+    r:5;
+  }
+  &.origin{
+    fill: white;
+    stroke-width: 3px;
+    stroke: black;
+  }
+  &.focus{
+    stroke: red;
+    stroke-width: 6px;
+  }
+  /*点类型*/
+  &.ptype_red{
+    stroke: darkred;
+    fill: mediumvioletred;
+  }
+  &.ptype_green{
+    stroke: darkgreen;
+    fill: darkgreen;
+  }
+  &.ptype_orange{
+    stroke: darkorange;
+    fill: darkorange;
+  }
+  &.ptype_blue{
+    stroke: darkblue;
+    fill: blue;
+  }
+}
+
+
+
+
+/*点的编号样式*/
+text.big-text{
+  font-size: x-large;
+}
+.scale{stroke:#E6E6FA;}
+#dots{stroke:rgb(65,105,225);stroke-width:1;}
+
+/*机台轨道图示*/
+.rail{stroke:rgb(255,0,0);stroke-opacity:0.2;stroke-width:10; stroke-dasharray:6,2;cursor: pointer;}
+.rail:hover{stroke-opacity: 0.9;animation: sdos1 1s linear infinite;}
+.railout {animation: sdos1 1s linear infinite;stroke-opacity: 0.9;}
+.railin {animation: sdos2 1s linear infinite;stroke-opacity: 0.9;}
+@keyframes sdos1 {
+  to {stroke-dashoffset: 10;}
+}
+@keyframes sdos2 {
+  to {stroke-dashoffset: -10;}
+}
+/*ctrlarea class*/
+polygon{
+  stroke-width:1;
+  fill: #ffa2de33;
+  stroke: #fc9ffc;
+  &.locked{
+    fill: #ffa2de;
+  }
+
+  &.ca{
+    fill:#ED6E46;fill-opacity: 0.1;
+  }
+  &.ca-used{
+    fill:#ED6E46;fill-opacity: 0.5;
+  }
+  &.checked{
+    fill: lightskyblue;stroke: #0a6aa1;stroke-width: 3px;
+  }
+}
+
+.right-bottom{
+  color: white;
+}
+.right-bottom-2 {
+  right: 10px;
+  bottom: 30px;
+  position: absolute;
+  /*transform: rotateX(180deg) rotateY(180deg);*/
+}
+.right-middle {
+  right: 10px;
+  top: 30%;
+  max-width: 600px;
+  position: absolute;
+  color: white;
+  /*transform: rotateX(180deg) rotateY(180deg);*/
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "title": "文件名称",
+        "dataIndex": "fileName",
+        "key": "fileName"
+    },
+    {
+        "title": "路径",
+        "dataIndex": "url",
+        "key": "url"
+    }
+]

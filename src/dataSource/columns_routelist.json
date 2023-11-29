@@ -1,0 +1,6 @@
+[
+  {"title":"路径编号","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"路径节点","dataIndex":"points","key":"points"},
+  {"title":"二维码模式","dataIndex":"qrcodeModeName","key":"qrcodeModeName"},
+  {"title":"更新时间","dataIndex":"tsCN","key":"tsCN"}
+]

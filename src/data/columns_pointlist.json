@@ -1,0 +1,14 @@
+[
+  {"title":"data.i18nKey139","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"data.i18nKey146","dataIndex":"x","key":"x"},
+  {"title":"data.i18nKey147","dataIndex":"y","key":"y"},
+  {"title":"data.i18nKey117","dataIndex":"type","key":"type","scopedSlots": { "customRender": "type" }},
+  {"title":"data.i18nKey148","dataIndex":"agvsLimit","key":"agvsLimit"},
+  {"title":"data.i18nKey149","dataIndex":"pairId","key":"pairId"},
+  {"title":"data.i18nKey150","dataIndex":"area","key":"area"},
+  {"title":"data.i18nKey151","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.i18nKey115","dataIndex":"remark","key":"remark"},
+  {"title":"data.i18nKey152","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"data.i18nKey153","dataIndex":"cacheStations","key":"cacheStations"},
+  {"title":"data.i18nKey116","dataIndex":"tag","key":"tag"}
+]

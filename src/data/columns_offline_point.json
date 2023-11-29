@@ -1,0 +1,9 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"agvId","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }},
+  {"title":"x","dataIndex":"x","key":"x","scopedSlots": { "customRender": "x" }},
+  {"title":"y","dataIndex":"y","key":"y","scopedSlots": { "customRender": "y" }},
+  {"title":"data.i18nKey120","dataIndex":"status","key":"status","scopedSlots": { "customRender": "status" }},
+  {"title":"data.i18nKey130","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"data.i18nKey131","dataIndex":"offlineTime","key":"offlineTime"}
+]

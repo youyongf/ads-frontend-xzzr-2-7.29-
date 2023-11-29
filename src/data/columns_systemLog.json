@@ -1,0 +1,6 @@
+[
+  {"title":"ts","dataIndex":"ts","key":"ts","scopedSlots": { "customRender": "ts" }},
+  {"title":"ip","dataIndex":"ip","key":"ip"},
+  {"title":"data.i18nKey229","dataIndex":"port","key":"port"},
+  {"title":"data.i18nKey230","dataIndex":"data","key":"data"}
+]

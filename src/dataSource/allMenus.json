@@ -1,0 +1,52 @@
+[
+  {"key": 1,"title": "directory.debug","icon":"desktop","value":[
+    {"id": 1,"value": "menu.machine","path":"monitor_station"},
+    {"id": 2,"value": "menu.signal","path":"monitor_agv"}
+  ]},
+  {"key": 2,"title": "directory.monitor","icon":"monitor","value":[
+    {"id": 1,"value": "menu.mstatus","path":"monitor_stationCardList"},
+    {"id": 2,"value": "menu.astatus","path":"monitor_agvstate"},
+    {"id": 3,"value": "menu.process","path":"onLineQtimeBaskVol"},
+    {"id": 4,"value": "menu.qtime","path":"Qtime"},
+    {"id": 5,"value": "menu.mcache","path":"cacheAgvBasketNum"},
+    {"id": 6,"value": "menu.door","path":"door"}
+  ]},
+  {"key": 3,"title": "directory.query","icon":"search","value":[
+    {"id": 1,"value": "menu.thistory","path":"check_transferlog"},
+    {"id": 2,"value": "menu.shistory","path":"check_statelog"},
+    {"id": 4,"value": "menu.astatistics","path":"check_agvAnomaly"},
+    {"id": 5,"value": "menu.lineFixed","path":"check_groupOnLineQtimeBaskVol"}
+  ]},
+  {"key": 4,"title": "directory.analysis","icon":"area-chart","value":[
+    {"id": 1,"value": "menu.trolleyRate","path":"check_car"},
+    {"id": 2,"value": "menu.dailyRate","path":"transfer_day"},
+    {"id": 3,"value": "menu.monthRate","path":"transfer_month"}
+  ]},
+  {"key": 5,"title": "directory.data","icon":"database","value":[
+    {"id": 1,"value": "menu.pointMap","path":"admin_pointmap"},
+    {"id": 2,"value": "menu.cacheStation","path":"admin_cachelayergroup"},
+    {"id": 3,"value": "menu.machineGroup","path":"admin_stationgroup"},
+    {"id": 4,"value": "menu.diagram","path":"admin_stationmap"}
+  ]},
+  {"key": 6,"title": "directory.system","icon":"setting","value":[
+    {"id": 1,"value": "menu.step","path":"admin_step"},
+    {"id": 19,"value": "menu.astep","path":"stepArea"},
+    {"id": 2,"value": "menu.mplatform","path":"admin_station"},
+    {"id": 3,"value": "menu.machineCache","path":"cache_list"},
+    {"id": 4,"value": "menu.cacheMachineLayer","path":"cacheLayer"},
+    {"id": 5,"value": "menu.cacheLocation","path":"cachePosition"},
+    {"id": 6,"value": "menu.distributionArea","path":"admin_camap"},
+    {"id": 7,"value": "menu.point","path":"admin_point"},
+    {"id": 8,"value": "menu.decisionPoint","path":"pointDecide"},
+    {"id": 9,"value": "menu.standbyPoint","path":"pointPark"},
+    {"id": 10,"value": "menu.route","path":"admin_route"},
+    {"id": 11,"value": "menu.offLine","path":"monitor_offlinepointmap"},
+    {"id": 12,"value": "menu.agv","path":"admin_agv"},
+    {"id": 13,"value": "menu.tControl","path":"admin_control"},
+    {"id": 14,"value": "menu.information","path":"admin_on_line_qtime"},
+    {"id": 15,"value": "menu.outputTarget","path":"admin_stepTargetOutput"},
+    {"id": 16,"value": "menu.cInformation","path":"admin_config"},
+    {"id": 17,"value": "menu.cInformation","path":"menuRole"},
+    {"id": 18,"value": "menu.cPassword","path":"newPassword"}
+  ]}
+]

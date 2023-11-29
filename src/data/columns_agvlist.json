@@ -1,0 +1,9 @@
+[
+  {"title":"id","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"ip","dataIndex":"ip","key":"ip"},
+  {"title":"data.i18nKey52","dataIndex":"port","key":"port"},
+  {"title":"data.i18nKey53","dataIndex":"region","key":"region"},
+  {"title":"data.i18nKey54","dataIndex":"maxBasket","key":"maxBasket"},
+  {"title":"data.i18nKey55","dataIndex":"remark","key":"remark"},
+  {"title":"data.i18nKey56","dataIndex":"type","key":"type"}
+]

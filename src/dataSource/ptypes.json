@@ -1,0 +1,8 @@
+[
+  {"value": "TRANS_EXIT","text": "工位退出点"},
+  {"value": "TRANS","text": "工位对接点"},
+  {"value": "CHARGE_EXIT","text": "充电退出点"},
+  {"value": "CHARGE","text": "充电位"},
+  {"value": "PARK","text": "待命位/停车位"},
+  {"value": "DECIDE","text": "决策点/询问点"}
+]

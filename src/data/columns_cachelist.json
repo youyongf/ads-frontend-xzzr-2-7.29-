@@ -1,0 +1,29 @@
+[
+  {"title":"data.i18nKey87","dataIndex":"id","key":"id","fixed": "left"},
+  {"title":"data.i18nKey88","dataIndex":"name","key":"name"},
+  {"title":"data.i18nKey89","dataIndex":"process","key":"process","scopedSlots": { "customRender": "process" }},
+  {"title":"data.i18nKey90","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"data.i18nKey67","dataIndex":"nextStep","key":"nextStep","scopedSlots": { "customRender": "nextStep" }},
+  {"title":"data.i18nKey91","dataIndex":"nextStations","key":"nextStations"},
+  {"title":"data.i18nKey92","dataIndex":"nextDecidePoint","key":"nextDecidePoint"},
+  {"title":"data.i18nKey93","dataIndex":"nextCacheStations","key":"nextCacheStations"},
+  {"title":"data.i18nKey94","dataIndex":"parks","key":"parks"},
+  {"title":"data.i18nKey95","dataIndex":"line","key":"line"},
+  {"title":"data.i18nKey65","dataIndex":"group","key":"group"},
+  {"title":"data.i18nKey96","dataIndex":"alternateGroup","key":"alternateGroup"},
+  {"title":"IP","dataIndex":"ip","key":"ip"},
+  {"title":"data.i18nKey97","dataIndex":"port","key":"port"},
+  {"title":"data.i18nKey98","dataIndex":"adsPort","key":"adsPort"},
+  {"title":"data.i18nKey99","dataIndex":"parser","key":"parser"},
+  {"title":"data.i18nKey100","dataIndex":"udpHead","key":"udpHead"},
+  {"title":"data.i18nKey101","dataIndex":"exitPoint","key":"exitPoint"},
+  {"title":"data.i18nKey102","dataIndex":"doPoint","key":"doPoint"},
+
+  {"title":"data.i18nKey103","dataIndex":"capacity","key":"capacity"},
+  {"title":"data.i18nKey104","dataIndex":"relPids","key":"relPids"},
+  {"title":"data.i18nKey105","dataIndex":"heartbeat","key":"heartbeat"},
+  {"title":"data.i18nKey106","dataIndex":"limits","key":"limits"},
+  {"title":"data.i18nKey107","dataIndex":"area","key":"area"},
+  {"title":"data.i18nKey108","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }}
+
+]

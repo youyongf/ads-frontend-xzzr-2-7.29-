@@ -1,0 +1,14 @@
+[ 
+  {"title":"data.i18nKey47","dataIndex":"name","key":"name"},
+  {"title":"agv","dataIndex":"agvId","key":"agvId","scopedSlots": { "customRender": "agvId" }},
+  {"title":"data.i18nKey102","dataIndex":"doPoint","key":"doPoint"},
+  {"title":"data.i18nKey108","dataIndex":"enabled","key":"enabled","scopedSlots": { "customRender": "enabled" }},
+  {"title":"data.i18nKey181","dataIndex":"limits","key":"limits"},
+  {"title":"data.i18nKey182","dataIndex":"inState","key":"inState","scopedSlots": { "customRender": "inState" }},
+  {"title":"data.i18nKey183","dataIndex":"outState","key":"outState","scopedSlots": { "customRender": "outState" }},
+  {"title":"data.i18nKey184","dataIndex":"inNum","key":"inNum"},
+  {"title":"data.i18nKey185","dataIndex":"outNum","key":"outNum"},
+  {"title":"data.i18nKey65","dataIndex":"group","key":"group"},
+  {"title":"data.i18nKey107","dataIndex":"area","key":"area"},
+  {"title":"ip","dataIndex":"ip","key":"ip"}
+]

@@ -1,0 +1,6 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"data.i18nKey110","dataIndex":"name","key":"name"},
+  {"title":"data.i18nKey119","dataIndex":"runAgvs","key":"runAgvs"},
+  {"title":"data.i18nKey120","dataIndex":"status","key":"status"}
+]
