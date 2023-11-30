@@ -5,6 +5,7 @@
   {"title":"data.i18nKey134","dataIndex":"agv_transfer_amount","key":"agv_transfer_amount"},
   {"title":"data.i18nKey135","dataIndex":"agv_steer_amount","key":"agv_steer_amount"},
   {"title":"data.i18nKey136","dataIndex":"agv_park_amount","key":"agv_park_amount"},
+  {"title":"data.i18nKey138","dataIndex":"total_amount","key":"total_amount"},
   {"title":"data.i18nKey137","dataIndex":"empty_qty","key":"empty_qty"},
-  {"title":"data.i18nKey138","dataIndex":"total_amount","key":"total_amount"}
+  {"title":"在制车辆号","dataIndex":"allAgv","key":"allAgv"}
 ]

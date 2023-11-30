@@ -249,6 +249,7 @@ export default {
             this.nightNum = 0
             this.axios.get(`rpt/transfer/stepoutput/${this.form.workday}`).then((res) => {
               if(res.data?.length==0){this.$message.info(res.data.message?res.data.message:this.$tcache("check.resultEmptyOrDataIncorrect"));return}
+                res.data = res.data.sort((a, b) => { return a.step - b.step })
                 this.data = [...res.data]
                 console.log(this.data)
                 this.data.forEach((item, i) => {

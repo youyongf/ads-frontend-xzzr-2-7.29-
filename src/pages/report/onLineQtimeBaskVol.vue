@@ -71,7 +71,7 @@ export default {
                         console.log(d.item)
                         this.theobj[d.item]=d
                     })
-                    this.chartData={agv_qty: [],cache_amount: [],agv_transfer_amount: [],agv_steer_amount: [],agv_park_amount: [],empty_qty: [],xAxis: []}
+                    this.chartData={agv_qty: [],cache_amount: [],agv_transfer_amount: [],agv_steer_amount: [],agv_park_amount: [],empty_qty: [],xAxis: [],allAgv:[]}
                     Object.keys(this.theobj).forEach((t)=>{
                         console.log(Number(t))
                         if(this.theobj[t]){
@@ -82,6 +82,7 @@ export default {
                             this.chartData.agv_steer_amount.push({agv_steer_amount:item.agv_steer_amount,stepid:item.item})
                             this.chartData.agv_park_amount.push({agv_park_amount:item.agv_park_amount,stepid:item.item})
                             this.chartData.empty_qty.push({empty_qty:item.empty_qty,stepid:item.item})
+                            this.chartData.allAgv.push({allAgv:item.allAgv,stepid:item.item})
                             this.chartData.xAxis.push({process:item.process,stepid:item.item})
                         }
                     })
@@ -91,6 +92,7 @@ export default {
                     this.chartData.agv_steer_amount=this.chartData.agv_steer_amount.sort((a,b)=>{return a.stepid-b.stepid}).map(x=>{return x.agv_steer_amount})
                     this.chartData.agv_park_amount=this.chartData.agv_park_amount.sort((a,b)=>{return a.stepid-b.stepid}).map(x=>{return x.agv_park_amount})
                     this.chartData.empty_qty=this.chartData.empty_qty.sort((a,b)=>{return a.stepid-b.stepid}).map(x=>{return x.empty_qty?x.empty_qty:0})
+                    this.chartData.allAgv=this.chartData.allAgv.sort((a,b)=>{return a.stepid-b.stepid}).map(x=>{return x.allAgv?x.allAgv:''})
                     this.chartData.xAxis=this.chartData.xAxis.sort((a,b)=>{return a.stepid-b.stepid}).map(x=>{return x.process})
                     console.log('this.chartData==>',this.chartData)
                     this.setMaxValue();
@@ -231,7 +233,7 @@ export default {
                         },
                         itemStyle: { color: '#30931e' },
                         data: this.chartData.agv_transfer_amount?this.chartData.agv_transfer_amount:[]
-                        // data:[10000,50000,30000,70000,10000]
+                        // data:[10000,80000,30000,70000,10000]
                     },
                     {
                         name: this.$tcache("report.driveStatusControl"),
@@ -307,7 +309,26 @@ export default {
                         },
                         itemStyle: { color: '#f5ce87' },
                         data: this.chartData.cache_amount?this.chartData.cache_amount:[]
-                        // data:[10000,50000,30000,70000,10000]
+                        // data:[10000,20000,30000,60000,10000]
+                    },
+                    {
+                        name: '在制车辆号',
+                        type: 'bar',
+                        stack: 'total',
+                        label: {
+                            show: true
+                        },
+                        emphasis: {
+                            focus: 'series'
+                        },
+                        tooltip: {
+                          valueFormatter: function (value) {
+                            return value;
+                          }
+                        },
+                        itemStyle: { color: '#fff0',opacity:0 },
+                        data: this.chartData.allAgv?this.chartData.allAgv:[]
+                        // data:[10000,20000,30000,60000,10000]
                     }
                 ]
             };
