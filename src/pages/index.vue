@@ -52,6 +52,10 @@
             <a-icon type="info-circle" />
             <span>{{$tcache('menu.olog')}}</span>
           </a-menu-item>
+          <a-menu-item key="forcedDockingLog" v-if="isAdmin||RoleMenu.includes('/forcedDockingLog')">
+            <a-icon type="info-circle" />
+            <span>强制对接日志</span>
+          </a-menu-item>
         </a-menu>
       </div>
 

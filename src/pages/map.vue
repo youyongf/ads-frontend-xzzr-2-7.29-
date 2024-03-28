@@ -906,7 +906,7 @@ export default {
       // if(angle<0)angle=-angle
       // console.log(angle)
       let rect = {}
-      if((angle>-20&&angle<20)){ //对接位在退出点右侧
+      if((angle>-40&&angle<40)){ //对接位在退出点右侧
         rect = {x: ax+15, y: ay-wid/2, width:size, height:wid}
         //文字方向、位置
         rect.dx = 10

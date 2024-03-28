@@ -34,7 +34,7 @@
       </a-form-model-item>
       <a-form-model-item  class="flex_item Width_350" :label="$tcache('admin.stationDet03')">
         <a-select :allow-clear='true' v-model="data.limits"  class="changeWidth" >
-          <a-select-option  v-for="item in chargerLimits" :key="item.second" :value="item.second">{{item.second}}</a-select-option>
+          <a-select-option  v-for="item in chargerLimits" :key="item.value" :value="item.value">{{item.value}}</a-select-option>
         </a-select>
         <!-- <a-input class="changeWidth" type="number" v-model.number="data.limits" /> -->
       </a-form-model-item>
@@ -196,10 +196,7 @@ export default {
   },
   data(){
     return{
-      chargerLimits:[
-        {second:0,units:this.$tcache('admin.stationDet22')},{second:1,units:this.$tcache('admin.stationDet22')},{second:2,units:this.$tcache('admin.stationDet22')},{second:3,units:this.$tcache('admin.stationDet22')},{second:4,units:this.$tcache('admin.stationDet22')},{second:5,units:this.$tcache('admin.stationDet22')},
-        {second:6,units:this.$tcache('admin.stationDet22')},{second:7,units:this.$tcache('admin.stationDet22')},{second:8,units:this.$tcache('admin.stationDet22')},{second:9,units:this.$tcache('admin.stationDet22')},{second:10,units:this.$tcache('admin.stationDet22')},
-      ],
+      chargerLimits:[],
       enabled:false,
       nextStations2:undefined,
       alld:[],
@@ -229,7 +226,10 @@ export default {
     }
   },
   beforeMount(){
-    vueApp=this
+    vueApp=this;
+    for(let i=0;i<=30;i++){
+      this.chargerLimits.push({value:i,label:i})
+    }
   },
   watch:{
     alldata: {

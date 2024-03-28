@@ -127,7 +127,7 @@ export default {
       showProgress:false,
       uploadStatus:'',
       isNumArr:['id','x','y','pairId','agvsLimit'],
-      areas:[],
+      areas:[1,2,3,4,5],
       cacheStations:[],
       ptypesCache:[]
     };
@@ -274,8 +274,7 @@ export default {
         .then((res) => {
           if (res.status == 200 && res.data) {
             this.alldata = res.data
-            this.areas=[...new Set(this.alldata.map(item=>item.area).filter(e=>e!=undefined))]
-            console.log(this.areas)
+            // this.areas=[...new Set(this.alldata.map(item=>item.area).filter(e=>e!=undefined))]
             if(this.isSave){this.data=res.data}else{
               const index = this.data.findIndex(item=>item.id==this.saveId)
               let obj=this.alldata.filter(item=>item.id==this.saveId)

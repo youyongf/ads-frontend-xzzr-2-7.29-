@@ -51,7 +51,7 @@ export default {
     },
 
     countDown() {
-      let secondsToGo = 5;
+      let secondsToGo = 3;
       const modal = this.$success({
         title: '登录已超时(30分钟)',
         content: `将在${secondsToGo}秒后退出登录.`,

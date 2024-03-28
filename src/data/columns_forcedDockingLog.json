@@ -1,0 +1,10 @@
+[
+  {"title":"id","dataIndex":"id","key":"id"},
+  {"title":"对接的agv编号","dataIndex":"agvid","key":"agvid"},
+  {"title":"当前人工干预对接的机台","dataIndex":"station","key":"station"},
+  {"title":"上一个对接机台","dataIndex":"lastStation","key":"lastStation"},
+  {"title":"目标机台","dataIndex":"targetStation","key":"targetStation","scopedSlots": { "customRender": "targetStation" }},
+  {"title":"当前步骤","dataIndex":"step","key":"step","scopedSlots": { "customRender": "step" }},
+  {"title":"注释","dataIndex":"remark","key":"remark"},
+  {"title":"插入时间","dataIndex":"ts","key":"ts"}
+]

@@ -56,6 +56,7 @@
   {"key": 7,"title": "data.i18nKey280","value":[
     {"id": 1,"value": "data.i18nKey281","path":"/systemLog"},
     {"id": 2,"value": "data.i18nKey282","path":"/sysOperLog"},
-    {"id": 3,"value": "车间地图","path":"/map"}
+    {"id": 3,"value": "车间地图","path":"/map"},
+    {"id": 4,"value": "强制对接日志","path":"/forcedDockingLog"}
   ]}
 ]

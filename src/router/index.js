@@ -263,6 +263,10 @@ const routes = [
         path: '/taskDuration',
         name: '任务时长统计',
         component: () => import('../pages/check/taskDuration.vue'),
+      }, {
+        path: '/forcedDockingLog',
+        name: '强制对接日志',
+        component: () => import('../pages/forcedDockingLog.vue'),
       }
     ]
   },
